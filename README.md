@@ -1,3 +1,3 @@
 # samples
 
-Trying to implement GO4 design patterns.
+GO4 design patterns in java.
