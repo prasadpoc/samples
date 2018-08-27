@@ -7,3 +7,12 @@
 /patterndemos/.settings
 /patterndemos/target/
 /.recommenders/
+
+
+/springbootdemos/.classpath
+/springbootdemos/.project
+/springbootdemos/mvnw
+/springbootdemos/mvnw.cmd
+
+
+
