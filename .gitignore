@@ -13,6 +13,9 @@
 /springbootdemos/.project
 /springbootdemos/mvnw
 /springbootdemos/mvnw.cmd
+/springbootdemos/.mvn/wrapper/maven-wrapper.jar
+/springbootdemos/.mvn/wrapper/maven-wrapper.properties
+
 
 
 
