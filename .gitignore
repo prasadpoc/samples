@@ -9,12 +9,14 @@
 /.recommenders/
 
 
-/springbootdemos/.classpath
-/springbootdemos/.project
-/springbootdemos/mvnw
-/springbootdemos/mvnw.cmd
-/springbootdemos/.mvn/wrapper/maven-wrapper.jar
-/springbootdemos/.mvn/wrapper/maven-wrapper.properties
+/springDockerSample/.classpath
+/springDockerSample/.project
+/springDockerSample/.settings
+/springDockerSample/.gitignore
+
+/springDockerSample/mvnw
+/springDockerSample/mvnw.cmd
+/springDockerSample/.mvn
 
 
 
