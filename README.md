@@ -16,3 +16,5 @@ docker container stop <container-name>
 docker rm <container-id>
 docker rmi <image-id>
 
+docker-compose up 
+Note:- Use docker-compose.yml file if there are multiple services in action or you wanted to automate the process. 
