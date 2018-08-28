@@ -16,5 +16,3 @@ docker container stop <container-name>
 docker rm <container-id>
 docker rmi <image-id>
 
-Design patterns
-Docker 
