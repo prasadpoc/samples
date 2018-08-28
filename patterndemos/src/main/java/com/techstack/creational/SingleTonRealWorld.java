@@ -4,7 +4,7 @@ package com.techstack.creational;
 
 /**
  * 
- * The main objective of this code is to show at any given point we could see only one Runtime instance .
+ * The main objective of this code is to show single Running instance .
  * 
  * @author tulasiprasad
  * @version 1.0
