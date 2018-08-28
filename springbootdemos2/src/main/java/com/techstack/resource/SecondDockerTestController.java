@@ -4,15 +4,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class FirstDockerTestController {
+public class SecondDockerTestController {
 
-	@RequestMapping("/dockerTest")
+	@RequestMapping("/SeconddockerTest")
 	public String dockerTest() {
-		return "Welcome to DockerTest Team";
+		return "Welcome to DockerTest!!!";
 	}
-	
-	@RequestMapping("/dockerTest2")
-	public String dockerTest2() {
-		return "2nd test";
-	}
+
 }
