@@ -8,8 +8,8 @@ Use SingleTonTest.java for testing SingleTon
 4. DBSingleTon.java : this helps in using above single ton and see how we can improve performance with single thread. 
 
 Pitfalls  : 
-*Often overused and give performance hit if you make every object as single ton
-*Difficult to unit test due to private contrutor 
-*if not carefull , this might not be thread-safe
-*Note : - if you pass paratemer this will consider as factory not single ton 
+* Often overused and give performance hit if you make every object as single ton
+* Difficult to unit test due to private contrutor 
+* If not carefull , this might not be thread-safe
+* Note : - if you pass paratemer this will consider as factory not single ton 
 
