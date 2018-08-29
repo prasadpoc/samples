@@ -7,15 +7,15 @@ package com.techstack.creational.singleTon;
  * @version 1.0
  *
  */
-public class DatabaseSingleTonJVM {
+public class SingleTonThreadSafteJVM {
 
 	// adding volatile will help the instance with no changes irrespective of JVM
 	// changes.
-	private static volatile DatabaseSingleTonJVM dbInstance = null;
+	private static volatile SingleTonThreadSafteJVM instance = null;
 
 	// Protecting from reflection API ( no one use Reflection on our code)
-	private DatabaseSingleTonJVM() {
-		if (dbInstance != null) {
+	private SingleTonThreadSafteJVM() {
+		if (instance != null) {
 			throw new RuntimeException("Please use getInstance() to create instance !!!");
 		}
 	}
@@ -23,16 +23,16 @@ public class DatabaseSingleTonJVM {
 	// For Thead Safe if we put synchronized block on entire method there will be
 	// more performance hit
 
-	public static DatabaseSingleTonJVM getInstance() {
-		if (dbInstance == null) {
-			synchronized (DatabaseSingleTonJVM.class) {
+	public static SingleTonThreadSafteJVM getInstance() {
+		if (instance == null) {
+			synchronized (SingleTonThreadSafteJVM.class) {
 				// double checking.
-				if (dbInstance == null) {
-					dbInstance = new DatabaseSingleTonJVM();
+				if (instance == null) {
+					instance = new SingleTonThreadSafteJVM();
 				}
 			}
 		}
-		return dbInstance;
+		return instance;
 	}
 
 }

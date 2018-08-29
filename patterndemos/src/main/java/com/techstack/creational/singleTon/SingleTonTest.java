@@ -10,25 +10,25 @@ public class SingleTonTest {
 	public static void main(String... args) {
 
 		// both Sys outs print single database.
-		DatabaseSingleTonEagerLoad databaseInstance1 = DatabaseSingleTonEagerLoad.getInstance();
-		System.out.println(databaseInstance1);
+		SingleTonEagerLoad instance1 = SingleTonEagerLoad.getInstance();
+		System.out.println(instance1);
 
-		DatabaseSingleTonEagerLoad databaseInstance2 = DatabaseSingleTonEagerLoad.getInstance();
-		System.out.println(databaseInstance2);
+		SingleTonEagerLoad instance2 = SingleTonEagerLoad.getInstance();
+		System.out.println(instance2);
 		
 		
 		// both Sys outs print single database.
-		DatabaseSingleTonLasyLoad databaseInstance3 = DatabaseSingleTonLasyLoad.getInstance();
-		System.out.println(databaseInstance3);
+		SingleTonLasyLoad instance3 = SingleTonLasyLoad.getInstance();
+		System.out.println(instance3);
 
-		DatabaseSingleTonLasyLoad databaseInstance4 = DatabaseSingleTonLasyLoad.getInstance();
-		System.out.println(databaseInstance4);
+		SingleTonLasyLoad instance4 = SingleTonLasyLoad.getInstance();
+		System.out.println(instance4);
 		
-		DatabaseSingleTonJVM databaseInstance5 = DatabaseSingleTonJVM.getInstance();
-		System.out.println(databaseInstance5);
+		SingleTonThreadSafteJVM instance5 = SingleTonThreadSafteJVM.getInstance();
+		System.out.println(instance5);
 
-		DatabaseSingleTonJVM databaseInstance6 = DatabaseSingleTonJVM.getInstance();
-		System.out.println(databaseInstance5);
+		SingleTonThreadSafteJVM instance6 = SingleTonThreadSafteJVM.getInstance();
+		System.out.println(instance6);
 		
 	}
 }
