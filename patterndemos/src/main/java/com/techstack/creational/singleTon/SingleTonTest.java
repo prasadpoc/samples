@@ -5,7 +5,7 @@ package com.techstack.creational.singleTon;
  * @author prasadT
  * @version 1.0
  */
-public class Test {
+public class SingleTonTest {
 
 	public static void main(String... args) {
 
