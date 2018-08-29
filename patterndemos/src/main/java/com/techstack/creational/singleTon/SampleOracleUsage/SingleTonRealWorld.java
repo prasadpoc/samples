@@ -1,6 +1,6 @@
 // SingleTon in realTime usage 
  
-package com.techstack.creational;
+package com.techstack.creational.singleTon.SampleOracleUsage;
 
 /**
  * 
