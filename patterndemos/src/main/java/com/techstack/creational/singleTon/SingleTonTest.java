@@ -45,8 +45,8 @@ public class SingleTonTest {
 		System.out.println("Total time taken First time :" + (after - before));
 		extractDetailsFromDatabase(connection);
 
-		// Checking the performance with Single ton by repeating above steps and finding difference
-		//in time. 
+		// Checking the performance with Single ton by repeating above steps 
+		// with single thread to finding difference in time. 
 		before = System.currentTimeMillis();
 		connection = DBSingleTon.getConnection();
 		after = System.currentTimeMillis();
