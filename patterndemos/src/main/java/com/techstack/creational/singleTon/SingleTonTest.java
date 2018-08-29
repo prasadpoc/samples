@@ -24,5 +24,11 @@ public class SingleTonTest {
 		DatabaseSingleTonLasyLoad databaseInstance4 = DatabaseSingleTonLasyLoad.getInstance();
 		System.out.println(databaseInstance4);
 		
+		DatabaseSingleTonJVM databaseInstance5 = DatabaseSingleTonJVM.getInstance();
+		System.out.println(databaseInstance5);
+
+		DatabaseSingleTonJVM databaseInstance6 = DatabaseSingleTonJVM.getInstance();
+		System.out.println(databaseInstance5);
+		
 	}
 }
