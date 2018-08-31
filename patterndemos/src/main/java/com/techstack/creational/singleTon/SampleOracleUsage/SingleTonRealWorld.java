@@ -20,7 +20,7 @@ public class SingleTonRealWorld {
 	 */
 	public static void main(String... args) {
 		
-		Runtime runtime = Runtime.getRuntime();
+		Runtime runtime =  Runtime.getRuntime();
 		runtime.gc();
 		System.out.println(runtime);
 

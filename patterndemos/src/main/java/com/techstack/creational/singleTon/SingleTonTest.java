@@ -25,7 +25,7 @@ public class SingleTonTest {
 
 		SingleTonEagerLoad instance2 = SingleTonEagerLoad.getInstance();
 		System.out.println(instance2);
-
+		
 		// both Sys outs print single database.
 		SingleTonLasyLoad instance3 = SingleTonLasyLoad.getInstance();
 		System.out.println(instance3);
@@ -48,9 +48,10 @@ public class SingleTonTest {
 		// Checking the performance with Single ton by repeating above steps 
 		// with single thread to finding difference in time. 
 		before = System.currentTimeMillis();
-		connection = DBSingleTon.getConnection();
+		Connection connection1 = DBSingleTon.getConnection();
 		after = System.currentTimeMillis();
 		System.out.println("Total time taken 2nd  time :" + (after - before));
+		extractDetailsFromDatabase(connection1);
 
 	}
 	
