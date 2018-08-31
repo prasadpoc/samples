@@ -3,13 +3,16 @@ package com.techstack.creational.singleTon;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
+/**
+ * 
+ * @author prasadt
+ * @version 1.0
+ */
 public class SingleTonReflection {
 
 	/**
 	 * The main method.
 	 * 
-	 * @author prasadt
-	 *
 	 * @param args
 	 *            the arguments
 	 * @throws InvocationTargetException
