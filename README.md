@@ -18,3 +18,6 @@ docker rmi <image-id>
 
 docker-compose up 
 Note:- Use docker-compose.yml file if there are multiple services in action or you wanted to automate the process. 
+Note:- to create image with script , create Dockerfile and with neccessary info and then 
+from docker-machine run following comment with tag 
+ex:- docker build -t /tulasiprasd/ubuntu:v1 .
